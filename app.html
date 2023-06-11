@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idle Game</title>
+    <link rel="stylesheet" href="/css/app.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="content">
+        <section class="menus">
+          <div class="main">
+            <button id="cut">cut tree</button>
+            <button id="visitshop">shop</button>
+            <button id="minestone">Mine for Stone</button>
+          </div>
+          <div class="shop">
+            <div class="sellButtons">
+              <button id="sell1">Sell [1] log</button>
+              <button id="sell10">Sell [10] log</button>
+              <button id="sellall">Sell all Logs</button>
+            </div>
+            <div class="upgrades">
+              <button id="autoCutShop">Buy [1] Auto Cut ($10)</button>
+            </div>
+            <div class="items">
+              <button id="buyPickaxe">Buy [1] Pickaxe ($5)</button>
+            </div>
+            <button id="return">Back</button>
+          </div>
+        </section>
+        <section class="inventory">
+          <p id="pickPower">Your Pickaxe Power: 1</p>
+          <p id="autoCut">Your autoCut 0 logs/s</p>
+          <p id="money">Money: $0</p>
+          <p id="logs">You now own 0 logs</p>
+          <p id="stones"></p>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

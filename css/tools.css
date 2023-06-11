@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+:root {
+  --font-family: "Inter";
+
+  --container-color: #101014;
+  --text-color: #e65502;
+  --text-color-default: white;
+  --shadow-color: #a63d00;
+  --test-container: rgb(88, 88, 88);
+  --btn-clr: #29262c;
+  --btn-active: #e65502;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-radius: 20px;
+
+  width: 100%;
+  min-height: 100px;
+
+  background-color: var(--container-color);
+}
+
+.usefull-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 37.5rem;
+  height: 100px;
+
+  border-radius: 20px;
+  gap: 30px;
+  /* background-color: var(--container-color); */
+}
+
+.configs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18.75rem;
+  height: 100px;
+
+  border-radius: 20px;
+  gap: 30px;
+  /* background-color: var(--container-color); */
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
+
+  padding: 10px;
+
+  border: 5px solid var(--btn-clr);
+  border-radius: 10px;
+}
+
+.btn-active {
+  border: 5px solid var(--btn-active);
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 24px rgba(230, 85, 2, 0.7));
+}

@@ -1,0 +1,59 @@
+/* ITCSS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+:root {
+  --font-family: "Inter";
+
+  --container-color: #101014;
+  --text-color: #e65502;
+  --text-color-default: white;
+  --shadow-color: #a63d00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Layout */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  width: 120rem;
+  height: 67.5rem;
+  background-color: #323232;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+
+  background-color: #323232;
+  background: radial-gradient(
+      farthest-side at bottom left,
+      rgba(255, 0, 255, 0.5),
+      transparent 95%
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      rgba(255, 50, 50, 0.5),
+      transparent 90%
+    );
+  border-radius: 20px;
+}
+
+@media (max-width: 1919px) {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+}

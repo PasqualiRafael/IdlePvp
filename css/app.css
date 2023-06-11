@@ -1,0 +1,50 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+:root {
+    --cor-primaria: #024959;
+    --cor-secundaria: #026773;
+    --cor-terciaria: #3ca6a6;
+
+    --background: #012e40;
+    --hover-color: #f2e3d5;
+    --buttons: #026773;
+}
+
+.inventory {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.button {
+    background-color: white;
+    font-size: 18px;
+}
+
+.shop {
+    display: none;
+}
+
+.upgrades,
+.items button {
+    display: grid;
+    grid-template-columns: repeat(1, 96px);
+    margin-bottom: 10px;
+}
+
+.sellButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 72px);
+    margin-bottom: 10px;
+}
+
+#autoCut {
+    display: none;
+}
+
+#pickPower {
+    display: none;
+}

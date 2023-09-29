@@ -1,6 +1,6 @@
 # Multilanguage README Choose your language
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PasqualiRafael/ArtePasquali/blob/main/README.en.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/PasqualiRafael/ArtePasquali/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PasqualiRafael/ArtePasquali/blob/main/README.en.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/PasqualiRafael/IdlePvp/edit/main/README.md)
 
 <h1 align="center">
   💻<br>IdlePvP (Em Construção)
